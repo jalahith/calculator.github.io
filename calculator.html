@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <title>Page Title</title>
+</head>
+
+   <body> 
+      <div class="header">
+          <span class="header-text">CALCULATOR</span>
+      </div>
+      <div class="main-container">
+        <div class="container">
+            <table> 
+                <tr> 
+                    <td colspan="4"style="padding-right: 5px;"><input type="text" id="result"/></td>
+                     
+                </tr> 
+                <tr>
+                    <td><input class="buttonclass" type="button" value="1" onclick="dis(this)"/> </td> 
+                    <td><input class="buttonclass" type="button" value="2" onclick="dis(this)"/> </td> 
+                    <td><input class="buttonclass" type="button" value="3" onclick="dis(this)"/> </td> 
+                    <td><input class="buttonclass" type="button" value="+" onclick="dis(this)"/> </td> 
+                </tr> 
+                <tr>
+                    <td><input class="buttonclass" type="button" value="4" onclick="dis(this)"/> </td> 
+                    <td><input class="buttonclass" type="button" value="5" onclick="dis(this)"/> </td> 
+                    <td><input class="buttonclass" type="button" value="6" onclick="dis(this)"/> </td> 
+                    <td><input class="buttonclass" type="button" value="-" onclick="dis(this)"/> </td> 
+        
+                </tr>
+                <tr>
+                    <td><input class="buttonclass" type="button" value="7" onclick="dis(this)"/> </td> 
+                    <td><input class="buttonclass" type="button" value="8" onclick="dis(this)"/> </td> 
+                    <td><input class="buttonclass" type="button" value="9" onclick="dis(this)"/> </td> 
+                    <td><input class="buttonclass" type="button" value="*" onclick="dis(this)"/> </td> 
+                </tr>
+                <tr>
+                        <td><input class="buttonclass" type="button" value="." onclick="dis(this)"/></td>
+                        <td><input class="buttonclass" type="button" value="0" onclick="dis(this)"/> </td> 
+                        <td><input class="buttonclass" type="button" value="=" onclick="equal()"/> </td> 
+                        <td><input class="buttonclass" type="button" value="/" onclick="dis(this)"/> </td>
+                
+                    </tr>
+                    <tr>
+                         <td><input class="buttonclass" type="button" value="<" onclick="backspace()"/></td>
+                         <td><input class="buttonclass" type="button" value="clr" onclick="clr()"/></td>
+                    </tr>
+
+            </table>
+        </div>
+    </div>
+    <div class="main-footer">
+        <p>@Copyright Juglu</p>
+    </div>
+    </body>
+</html>
